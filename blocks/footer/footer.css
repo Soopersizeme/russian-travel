@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: space-between;
   max-width: 1184px;
-  margin: 92px 48px 0;
+  margin: 92px auto 0;
   padding-bottom: 24px;
 }
 
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
   .footer {
     flex-direction: column;
     margin: 64px 16px 0;
