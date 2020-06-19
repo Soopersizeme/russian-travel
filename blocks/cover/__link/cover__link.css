@@ -28,20 +28,3 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 1200px) {
-  .cover__link {
-    height: 100%;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .cover__link {
-    max-height: 100%;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .cover__link {
-    height: 100%;
-  }
-}
