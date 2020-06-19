@@ -8,6 +8,7 @@
   height: 740px;
   margin: 0 auto 0;
   z-index: 1;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1200px) {

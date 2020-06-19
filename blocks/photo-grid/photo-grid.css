@@ -3,10 +3,9 @@
 .photo-grid {
   margin: 0 auto 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-gap: 16px;
   max-width: 92.5%;
-  max-height: 2724px;
 }
 
 @media screen and (max-width: 1200px) {
