@@ -1,6 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
 @import url(./__links/footer__links.css);
+@import url(./__link-list/footer__link-list.css);
 
 .footer {
   display: flex;
@@ -21,7 +22,6 @@
   .footer {
     flex-direction: column;
     margin: 64px 16px 0;
-    min-height: 310px;
     min-width: 186px;
   }
 }

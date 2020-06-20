@@ -1,0 +1,9 @@
+@media screen and (max-width: 700px) {
+    .footer__link-list {
+        margin: 0 0 32px;
+    }
+
+    .footer__link-list:last-child {
+        margin-bottom: 48px;
+      }
+}

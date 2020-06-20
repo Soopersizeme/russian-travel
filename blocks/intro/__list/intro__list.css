@@ -8,10 +8,3 @@
   list-style: none;
   padding: 0;
 }
-
-@media screen and (max-width: 640px) {
-  .intro__list {
-    font-size: 12px;
-    line-height: 18px;
-  }
-}

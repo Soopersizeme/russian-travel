@@ -9,10 +9,6 @@
   text-decoration: none;
 }
 
-.header__lang-link:focus {
-  text-decoration: underline;
-}
-
 .header__lang-link:last-child {
   margin-left: 18px;
 }

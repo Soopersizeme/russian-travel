@@ -5,17 +5,25 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-gap: 16px;
-  max-width: 92.5%;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1200px) {
   .photo-grid {
     grid-gap: 14px;
+    margin: 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .photo-grid {
+    margin: 0 24px 0;
   }
 }
 
 @media screen and (max-width: 640px) {
   .photo-grid {
     grid-gap: 12px;
+    margin: 0 16px 0;
   }
 }
